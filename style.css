@@ -1,0 +1,20 @@
+h1{
+    background-color: red;
+    height: 80px;
+}
+p{
+    background-color: yellowgreen;
+    font-size: medium;
+}
+    @media (max-width: 300px) 
+    { p{ 
+        background-color: cyan;
+        font-size: smaller;
+    }
+}
+@media (max-width: 600px) 
+{  i{
+    visibility: hidden;
+    background-color: green;
+}
+}
